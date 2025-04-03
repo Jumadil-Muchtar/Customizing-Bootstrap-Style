@@ -1,0 +1,16 @@
+List properti
+- flex-basis : digunakan di item fleksibel  untuk menentukan ukuran dari item. Jika item disusun secara horizontal (flex-direction : row), maka ukuran item yang dimaksud adalah width. Sebaliknya, ukuran yang dimaksud yaitu height. Nilainya dapat berupa ukuran px, auto, initial ataupun inherit.
+- flex-grow : digunakan di item fleksibel untuk menambah ukuran item tertentu. setiap item memiliki nilai 0 diawal, jika salah satu item diperbarui propertinya menjadi flex-grow : 1, maka item tersebut akan diperbesar menjadi 1 kali dibanding item-item lainnya.
+- flex-shrink : digunakan di item fleksibel untuk mengurangi ukuran item tertentu, seperti halnya flex-grow.
+
+
+Info baru:
+height: 100% akan bekerja jika kontainernya memiliki ukuran yang telah ditentukan dan tidak bernilai auto (nilai defaultnya)
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors
+
+keyword:
+- currentcolor :  mendapatkan nilai dari property color
+
+tips:
+1. untuk mengisi ruang dari fleksibel container, set property flex-basis: auto pada itemnya.
